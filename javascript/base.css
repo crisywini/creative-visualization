@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.box:hover{
+    width: 180px;   
+    height: 100px;
+    transform: rotate(180deg);
+}
